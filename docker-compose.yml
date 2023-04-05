@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  server:
+    build: .
+    tty: true
+    command: server
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
