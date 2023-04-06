@@ -1,2 +1,5 @@
 theme = 'anatole'
 baseURL = 'https://tinghaolai.github.io/'
+
+[params]
+profilePicture = "/images/excited-cat.jpg"
