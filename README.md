@@ -1,4 +1,4 @@
-### [Github page line](https://tinghaolai.github.io/)
+### [Github page link](https://tinghaolai.github.io/)
 
 ## Hugo develop
 
