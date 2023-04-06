@@ -6,3 +6,15 @@ profilePicture = "/images/excited-cat.jpg"
 title = "Tech notes"
 author = "Tinghao Lai"
 description = "Personal note, FYI, might outdated or not correct"
+
+[Languages]
+[Languages.en]
+title = "Tech notes"
+weight = 1
+LanguageName = "EN"
+
+[Languages.zh]
+title = "技術學習筆記"
+description = "個人心得,未經考察,僅供參考"
+weight = 2
+LanguageName = "繁體中文"
