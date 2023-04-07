@@ -135,13 +135,13 @@ func writeMarkdown(subFolderPath string, filename string, content string) {
 		re = regexp.MustCompile(`(?s)(.*)(<!--HugoNoteZhFlag-->)(.*)`)
 		match = re.FindStringSubmatch(trueContent)
 		if len(match) > 0 {
-			writeHugoFile(file, match[1], filename)
-			writeHugoFile(zhFile, match[3], filename)
+			writeHugoFile(file, match[1], filename, subFolderPath)
+			writeHugoFile(zhFile, match[3], filename, subFolderPath)
 			return
 		}
 
-		writeHugoFile(file, trueContent, filename)
-		writeHugoFile(zhFile, "此文章沒有中文版本", filename)
+		writeHugoFile(file, trueContent, filename, subFolderPath)
+		writeHugoFile(zhFile, "此文章沒有中文版本", filename, subFolderPath)
 
 		return
 	}
@@ -154,7 +154,7 @@ func writeMarkdown(subFolderPath string, filename string, content string) {
 
 	githubLink := "https://github.com/" + path.Join(repoPath, "blob/master/", subFolderPath, filename)
 
-	writeHugoFile(file, "# "+filename+"\n\n"+"Draft note, watch origin note from github: [link]("+githubLink+")", draftFileName)
+	writeHugoFile(file, "# "+filename+"\n\n"+"Draft note, watch origin note from github: [link]("+githubLink+")", draftFileName, subFolderPath)
 
 	draftZhFileName := convertI18NFileName(draftFileName)
 	file, err = os.Create(path.Join(storeFolderPath, draftZhFileName))
@@ -162,14 +162,25 @@ func writeMarkdown(subFolderPath string, filename string, content string) {
 		panic(err)
 	}
 
-	writeHugoFile(file, "# "+filename+"\n\n"+"草稿筆記, 原版請前往 github 查看: [連結]("+githubLink+")", draftFileName)
+	writeHugoFile(file, "# "+filename+"\n\n"+"草稿筆記, 原版請前往 github 查看: [連結]("+githubLink+")", draftFileName, subFolderPath)
 }
 
 func convertI18NFileName(filename string) string {
 	return filename[:len(filename)-3] + ".zh" + filename[len(filename)-3:]
 }
 
-func writeHugoFile(file *os.File, content string, fileName string) {
-	content = "---\ntitle: \"" + fileName + "\"\ndate: 1919-08-10T11:45:14Z\ndraft: false\n---\n\n" + content
+func writeHugoFile(file *os.File, content string, fileName string, subFolderPath string) {
+	if subFolderPath[0] == '/' {
+		subFolderPath = subFolderPath[1:]
+	}
+
+	parts := strings.Split(subFolderPath, "/")
+	var result []string
+	for i := range parts {
+		result = append(result, "\""+strings.Join(parts[:i+1], "-")+"\"")
+	}
+
+	categories := "[" + strings.Join(result, ",") + "]"
+	content = "---\ntitle: \"" + fileName + "\"\ndate: 1919-08-10T11:45:14Z\ndraft: false\ncategories: " + categories + "\n---\n\n" + content
 	file.WriteString(content)
 }
