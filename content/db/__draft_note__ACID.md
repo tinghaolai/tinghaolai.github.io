@@ -6,4 +6,4 @@ draft: false
 
 # ACID.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/db/ACID.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/db/ACID.md)

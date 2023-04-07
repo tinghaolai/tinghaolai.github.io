@@ -6,4 +6,4 @@ draft: false
 
 # Inversion_of_control.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/laravel/Inversion_of_control.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/laravel/Inversion_of_control.md)

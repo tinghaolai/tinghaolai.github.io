@@ -6,4 +6,4 @@ draft: false
 
 # gitlab-ci-common-note.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/cicd/gitlab/gitlab-ci-common-note.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/cicd/gitlab/gitlab-ci-common-note.md)

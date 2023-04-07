@@ -6,4 +6,4 @@ draft: false
 
 # personal-develop-environment.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/linux/personal-develop-environment.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/linux/personal-develop-environment.md)

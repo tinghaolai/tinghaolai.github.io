@@ -6,4 +6,4 @@ draft: false
 
 # sorting_by_multiple_fields.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/elastic/sorting_by_multiple_fields.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/elastic/sorting_by_multiple_fields.md)

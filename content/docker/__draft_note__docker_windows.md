@@ -6,4 +6,4 @@ draft: false
 
 # docker_windows.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/docker/docker_windows.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/docker/docker_windows.md)

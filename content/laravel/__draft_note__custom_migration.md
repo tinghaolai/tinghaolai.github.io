@@ -6,4 +6,4 @@ draft: false
 
 # custom_migration.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/laravel/custom_migration.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/laravel/custom_migration.md)

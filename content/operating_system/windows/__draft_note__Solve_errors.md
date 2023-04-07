@@ -6,4 +6,4 @@ draft: false
 
 # Solve_errors.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/operating_system/windows/Solve_errors.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/operating_system/windows/Solve_errors.md)

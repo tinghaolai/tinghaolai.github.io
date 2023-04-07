@@ -6,4 +6,4 @@ draft: false
 
 # arch-linux-install-cloudflare-zero-trust.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/linux/arch-linux-install-cloudflare-zero-trust.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/linux/arch-linux-install-cloudflare-zero-trust.md)

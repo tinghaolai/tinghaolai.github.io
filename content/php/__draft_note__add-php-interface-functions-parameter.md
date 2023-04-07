@@ -6,4 +6,4 @@ draft: false
 
 # add-php-interface-functions-parameter.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/php/add-php-interface-functions-parameter.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/php/add-php-interface-functions-parameter.md)

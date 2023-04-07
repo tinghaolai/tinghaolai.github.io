@@ -6,4 +6,4 @@ draft: false
 
 # repository-patterm.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/design_pattern/repository-patterm.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/design_pattern/repository-patterm.md)

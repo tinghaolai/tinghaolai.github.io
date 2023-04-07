@@ -6,4 +6,4 @@ draft: false
 
 # basic_gitlab_cicd_test.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/cicd/gitlab/basic_gitlab_cicd_test.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/cicd/gitlab/basic_gitlab_cicd_test.md)

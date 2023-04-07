@@ -6,4 +6,4 @@ draft: false
 
 # replace-into-vs-insert-on-duplicate.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/db/mysql/replace-into-vs-insert-on-duplicate.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/db/mysql/replace-into-vs-insert-on-duplicate.md)

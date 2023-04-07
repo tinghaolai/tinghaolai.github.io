@@ -6,4 +6,4 @@ draft: false
 
 # basic.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/kubernetes/basic.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/kubernetes/basic.md)

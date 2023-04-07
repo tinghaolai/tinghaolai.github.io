@@ -6,4 +6,4 @@ draft: false
 
 # VM-ssh.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/google-cloud/VM-ssh.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/google-cloud/VM-ssh.md)

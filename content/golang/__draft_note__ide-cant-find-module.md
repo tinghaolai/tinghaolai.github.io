@@ -6,4 +6,4 @@ draft: false
 
 # ide-cant-find-module.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/golang/ide-cant-find-module.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/golang/ide-cant-find-module.md)

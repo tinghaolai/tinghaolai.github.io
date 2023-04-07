@@ -6,4 +6,4 @@ draft: false
 
 # laravel-ci.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/cicd/gitlab/laravel-ci.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/cicd/gitlab/laravel-ci.md)

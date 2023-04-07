@@ -6,4 +6,4 @@ draft: false
 
 # docker-package-container.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/docker/docker-package-container.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/docker/docker-package-container.md)

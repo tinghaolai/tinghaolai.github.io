@@ -6,4 +6,4 @@ draft: false
 
 # Laravel-whereIn-query-slow.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/laravel/Laravel-whereIn-query-slow.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/laravel/Laravel-whereIn-query-slow.md)

@@ -6,4 +6,4 @@ draft: false
 
 # docker.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/docker/docker.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/docker/docker.md)

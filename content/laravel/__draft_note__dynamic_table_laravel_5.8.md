@@ -6,4 +6,4 @@ draft: false
 
 # dynamic_table_laravel_5.8.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/laravel/dynamic_table_laravel_5.8.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/laravel/dynamic_table_laravel_5.8.md)

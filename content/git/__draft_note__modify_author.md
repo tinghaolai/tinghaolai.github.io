@@ -6,4 +6,4 @@ draft: false
 
 # modify_author.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/git/modify_author.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/git/modify_author.md)

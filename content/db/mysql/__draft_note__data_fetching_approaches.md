@@ -6,4 +6,4 @@ draft: false
 
 # data_fetching_approaches.md
 
-Draft note, watch origin note from github: [link](https:/github.com/tinghaolai/just-random-note/blob/master/db/mysql/data_fetching_approaches.md)
+Draft note, watch origin note from github: [link](https://github.com/tinghaolai/just-random-note/blob/master/db/mysql/data_fetching_approaches.md)

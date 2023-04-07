@@ -152,7 +152,7 @@ func writeMarkdown(subFolderPath string, filename string, content string) {
 		panic(err)
 	}
 
-	githubLink := path.Join("https://github.com/", repoPath, "blob/master/", subFolderPath, filename)
+	githubLink := "https://github.com/" + path.Join(repoPath, "blob/master/", subFolderPath, filename)
 
 	writeHugoFile(file, "# "+filename+"\n\n"+"Draft note, watch origin note from github: [link]("+githubLink+")", draftFileName)
 
