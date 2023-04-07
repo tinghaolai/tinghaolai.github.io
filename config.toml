@@ -32,3 +32,13 @@ title = "技術學習筆記"
 description = "個人心得, 未經考察, 僅供參考"
 weight = 2
 LanguageName = "繁體中文"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
