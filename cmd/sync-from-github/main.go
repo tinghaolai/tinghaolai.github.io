@@ -30,7 +30,12 @@ func main() {
 	repoPath = os.Getenv("GITHUB_REPO_PATH")
 	accessToken = os.Getenv("GITHUB_ACCESS_TOKEN")
 
+	clearFolder("./sync-test/")
 	scanFolder("", "./sync-test/")
+}
+
+func clearFolder(folderPath string) {
+	os.RemoveAll(folderPath)
 }
 
 func scanFolder(subFolderPath string, storeFolderPath string) {
