@@ -6,6 +6,20 @@ profilePicture = "/images/excited-cat.jpg"
 title = "Tech notes"
 author = "Tinghao Lai"
 description = "Personal note, FYI, might outdated or not correct"
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:analth355@gmail.comf"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/tinghaolai"
+
+[[params.socialIcons]]
+icon = "fa-solid fa-code"
+title = "leetcode"
+url = "https://leetcode.com/tinghaolai/"
 
 [Languages]
 [Languages.en]
