@@ -2,6 +2,7 @@
 title: "__draft_note__mysql_query.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["db"]
 ---
 
 # mysql_query.md

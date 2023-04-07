@@ -2,6 +2,7 @@
 title: "__draft_note__JWT.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["backend-random-thing"]
 ---
 
 # JWT.md

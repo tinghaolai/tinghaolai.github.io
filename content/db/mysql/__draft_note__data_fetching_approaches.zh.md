@@ -2,6 +2,7 @@
 title: "__draft_note__data_fetching_approaches.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["db","db-mysql"]
 ---
 
 # data_fetching_approaches.md

@@ -2,6 +2,7 @@
 title: "__draft_note__windows-dev-tools.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["windows"]
 ---
 
 # windows-dev-tools.md

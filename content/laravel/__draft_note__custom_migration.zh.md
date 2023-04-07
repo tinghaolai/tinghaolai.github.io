@@ -2,6 +2,7 @@
 title: "__draft_note__custom_migration.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["laravel"]
 ---
 
 # custom_migration.md

@@ -2,6 +2,7 @@
 title: "__draft_note__what-skill-should-know-from-other-position.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["career"]
 ---
 
 # what-skill-should-know-from-other-position.md

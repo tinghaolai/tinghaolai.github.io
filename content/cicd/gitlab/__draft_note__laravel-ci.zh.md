@@ -2,6 +2,7 @@
 title: "__draft_note__laravel-ci.md"
 date: 1919-08-10T11:45:14Z
 draft: false
+categories: ["cicd","cicd-gitlab"]
 ---
 
 # laravel-ci.md
