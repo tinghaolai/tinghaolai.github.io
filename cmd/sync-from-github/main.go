@@ -37,7 +37,7 @@ func main() {
 	accessToken = os.Getenv("GITHUB_ACCESS_TOKEN")
 	excludeFolders = make(map[string]bool)
 	excludeFiles = make(map[string]bool)
-	storeFolderRoot = "../../content"
+	storeFolderRoot = "../../content/note"
 
 	for _, key := range strings.Split(os.Getenv("EXCLUDE_FOLDERS"), ",") {
 		excludeFolders[key] = true
