@@ -2,6 +2,7 @@ theme = 'anatole'
 baseURL = 'https://tinghaolai.github.io/'
 
 [params]
+displayMode = "dark"
 profilePicture = "/images/excited-cat.jpg"
 title = "Tech notes"
 author = "Tinghao Lai"
