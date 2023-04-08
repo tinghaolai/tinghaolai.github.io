@@ -1,5 +1,5 @@
 <style>
-.directory a {
+.directory {
   color: #00f0ff ;
   text-color: #00f0ff ;
 }
@@ -38,7 +38,7 @@
             <div class="directory">
                 {{ $prefix }}
                 <i class="fas fa-folder"></i>
-                <a href="{{ $currentPath }}" target="_blank"><span>{{ .Name }}</span></a>
+                <span>{{ .Name }}</span>
             </div>
             {{ $newTreeDir := printf "%s%s/" $treeDir .Name }}
             {{ $newPrefix := printf "%s&nbsp;&nbsp;&nbsp;&nbsp;" $prefix | safeHTML }}
