@@ -1,0 +1,62 @@
+<style>
+.directory a {
+  color: #00f0ff ;
+  text-color: #00f0ff ;
+}
+
+.directory i {
+  color: #00f0ff;
+}
+
+.finished a {
+  color: #ff9800;;
+  text-color: #ff9800;;
+}
+
+.finished i {
+  color: #f50057;
+}
+
+.draft a {
+  color: #5a5a5a;
+  text-color: #5a5a5a;
+}
+
+.draft i {
+  color: #5a5a5a;
+}
+</style>
+
+{{ $folderPath := .folderPath }}
+{{ $treeDir := .treeDir }}
+{{ $prefix := .prefix }}
+{{ range os.ReadDir .treeDir }}
+    <div>
+        {{ $pathWithExtension := printf "%s%s" $folderPath .Name }}
+        {{ $currentPath := index (split $pathWithExtension ".") 0 }}
+        {{ if .IsDir }}
+            <div class="directory">
+                {{ $prefix }}
+                <i class="fas fa-folder"></i>
+                <a href="{{ $currentPath }}" target="_blank"><span>{{ .Name }}</span></a>
+            </div>
+            {{ $newTreeDir := printf "%s%s/" $treeDir .Name }}
+            {{ $newPrefix := printf "%s&nbsp;&nbsp;&nbsp;&nbsp;" $prefix | safeHTML }}
+            {{ $newFolderPath := printf "%s%s/" $folderPath .Name }}
+            {{ partial "treeDir.html" (dict "treeDir" $newTreeDir "prefix" $newPrefix "folderPath" $newFolderPath) }}
+        {{ else if strings.HasPrefix .Name "__draft_note__"  }}
+            <div class="draft">
+                {{ $prefix }}
+                <i class="fas fa-file"></i>
+                <a href="{{ $currentPath }}" target="_blank"><span>{{ .Name }}</span></a>
+            </div>
+        {{ else if not (strings.HasSuffix .Name ".md") }}
+        {{ else }}
+            <div class="finished">
+                {{ $prefix }}
+                <i class="fas fa-file"></i>
+                <a href="{{ $currentPath }}" target="_blank"><span>{{ .Name }}</span></a>
+            </div>
+        {{ end }}
+    </div>
+{{ end }}
