@@ -40,5 +40,5 @@ LanguageName = "繁體中文"
 
 [[menu.main]]
   name = "About"
-  url = "/about/"
+  url = "/note/about/"
   weight = 2
