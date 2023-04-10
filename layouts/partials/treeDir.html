@@ -33,7 +33,7 @@
 {{ range os.ReadDir .treeDir }}
     <div>
         {{ $pathWithExtension := printf "%s%s" $folderPath .Name }}
-        {{ $currentPath := index (split $pathWithExtension ".") 0 }}
+        {{ $currentPath := lower (substr $pathWithExtension 0 -3)}}
         {{ if .IsDir }}
             <div class="directory">
                 {{ $prefix }}
