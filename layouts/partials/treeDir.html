@@ -44,6 +44,7 @@
             {{ $newPrefix := printf "%s&nbsp;&nbsp;&nbsp;&nbsp;" $prefix | safeHTML }}
             {{ $newFolderPath := printf "%s%s/" $folderPath .Name }}
             {{ partial "treeDir.html" (dict "treeDir" $newTreeDir "prefix" $newPrefix "folderPath" $newFolderPath) }}
+        {{ else if strings.HasSuffix .Name ".zh.md"  }}
         {{ else if strings.HasPrefix .Name "__draft_note__"  }}
             <div class="draft">
                 {{ $prefix }}
