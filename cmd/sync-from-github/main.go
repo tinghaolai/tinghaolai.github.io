@@ -182,5 +182,19 @@ func writeHugoFile(file *os.File, content string, fileName string, subFolderPath
 
 	categories := "[" + strings.Join(result, ",") + "]"
 	content = "---\ntitle: \"" + fileName + "\"\ndate: 1919-08-10T11:45:14Z\ndraft: false\ncategories: " + categories + "\n---\n\n" + content
+
+	re := regexp.MustCompile(`(!\[.*\])\((.*\.(png|jpg|jpeg|gif))\)`)
+	content = re.ReplaceAllStringFunc(content, func(match string) string {
+		imgMarkDown := re.FindStringSubmatch(match)[1]
+		relativePath := re.FindStringSubmatch(match)[2]
+		return imgMarkDown +
+			"(" +
+			"https://raw.githubusercontent.com/tinghaolai/just-random-note/master/" +
+			subFolderPath +
+			"/" +
+			relativePath +
+			")"
+	})
+
 	file.WriteString(content)
 }
