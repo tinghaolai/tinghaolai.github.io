@@ -26,7 +26,7 @@ categories: ["linux"]
 
 ## Example
 
-![cool-stuff](imgs/cool-stuff.png)
+![cool-stuff](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/linux/imgs/cool-stuff.png)
 
 
 ---

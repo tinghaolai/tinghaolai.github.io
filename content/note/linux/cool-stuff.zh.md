@@ -25,4 +25,4 @@ categories: ["linux"]
 
 ## 範例
 
-![cool-stuff（酷東西）](imgs/cool-stuff.png)
+![cool-stuff（酷東西）](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/linux/imgs/cool-stuff.png)

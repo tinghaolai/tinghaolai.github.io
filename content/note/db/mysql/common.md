@@ -13,6 +13,10 @@ categories: ["db","db-mysql"]
 
 run `Show processlist;` and `kill {processID}`
 
+## count(*) vs count(1) speed
+
+same in `innodb`
+
 
 ---
 

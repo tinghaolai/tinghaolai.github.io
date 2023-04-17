@@ -47,18 +47,18 @@ build:
 
 ### Image build and upload
 
-![docker_in_docker_gitlab_container_upload_result.png](imgs/docker_in_docker_gitlab_container_upload_result.png)
+![docker_in_docker_gitlab_container_upload_result.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_container_upload_result.png)
 
 
 
 ### Gitlab variable setting
 
-![docker_in_docker_gitlab_variable_setting.png](imgs/docker_in_docker_gitlab_variable_setting.png)
+![docker_in_docker_gitlab_variable_setting.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_variable_setting.png)
 
 
 **Need to uncheck `Protect varialbe` if testing ci/cd from unprotected branch**
 
-![docker_in_docker_gitlab_variable_protected.png](imgs/docker_in_docker_gitlab_variable_protected.png)
+![docker_in_docker_gitlab_variable_protected.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_variable_protected.png)
 
 ---
 
@@ -150,15 +150,15 @@ build:
 
 ### 映像檔建立和上傳
 
-![docker_in_docker_gitlab_container_upload_result.png](imgs/docker_in_docker_gitlab_container_upload_result.png)
+![docker_in_docker_gitlab_container_upload_result.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_container_upload_result.png)
 
 ### GitLab 變數設定
 
-![docker_in_docker_gitlab_variable_setting.png](imgs/docker_in_docker_gitlab_variable_setting.png)
+![docker_in_docker_gitlab_variable_setting.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_variable_setting.png)
 
 **在從未受保護的分支進行測試 CI/CD 時，必須取消勾選「保護變數」**
 
-![docker_in_docker_gitlab_variable_protected.png](imgs/docker_in_docker_gitlab_variable_protected.png)
+![docker_in_docker_gitlab_variable_protected.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_variable_protected.png)
 
 ---
 

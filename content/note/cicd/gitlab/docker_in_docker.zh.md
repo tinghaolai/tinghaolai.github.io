@@ -42,12 +42,12 @@ build:
 
 ### 建立及上傳映像檔
 
-![docker_in_docker_gitlab_container_upload_result.png](imgs/docker_in_docker_gitlab_container_upload_result.png)
+![docker_in_docker_gitlab_container_upload_result.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_container_upload_result.png)
 
 ### 設置 GitLab 變數
 
-![docker_in_docker_gitlab_variable_setting.png](imgs/docker_in_docker_gitlab_variable_setting.png)
+![docker_in_docker_gitlab_variable_setting.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_variable_setting.png)
 
 **從未受保護的分支進行 CI/CD 測試時，需要取消核取「保護變數」**
 
-![docker_in_docker_gitlab_variable_protected.png](imgs/docker_in_docker_gitlab_variable_protected.png)
+![docker_in_docker_gitlab_variable_protected.png](https://raw.githubusercontent.com/tinghaolai/just-random-note/master/cicd/gitlab/imgs/docker_in_docker_gitlab_variable_protected.png)
