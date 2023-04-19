@@ -9,21 +9,24 @@ categories: ["linux","linux-mabox-linux"]
 
 # Translated by ChatGTP
 
-# MaboxLinux
+## 呼叫終端機
+
+ctrl + shift + t
+
 ## 音頻控制
 
-`pamixer --help`
+pamixer --help
 
-## 圖形界面
+## 圖形使用者介面
 
-`xfce`
+xfce
 
-## 套件安裝
+## 安裝套件
 
-* pacman
-* dpkp
-* pem
-* snpa
+pacman
+dpkp
+pem
+snpa
 
 ## 環境變數
 
@@ -32,9 +35,8 @@ categories: ["linux","linux-mabox-linux"]
 
 ## 鍵盤快捷鍵
 
-Openbox
-
+* Openbox
   * 修改快捷鍵綁定
-    * 某些快捷鍵在 GUI 中無法顯示
-    * 在 '.config/openbox/rc.xml' 中進行修改
-    * 執行 'openbox --restart'
+    * 某些快捷鍵未顯示在GUI中
+    * 修改位於'.config/openbox/rc.xml'
+    * 執行'openbox --restart'

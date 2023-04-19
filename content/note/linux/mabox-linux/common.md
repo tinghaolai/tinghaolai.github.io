@@ -9,22 +9,24 @@ categories: ["linux","linux-mabox-linux"]
 
 ---
 
+## Call terminal
 
-# MaboxLinux
-## Audio control
+ctrl + shift + t
 
-`pamixer --help`
+## audio control
+
+pamixer --help
 
 ## gui
 
-`xfce`
+xfce
 
 ## package install
 
-* pacman
-* dpkp
-* pem
-* snpa
+pacman
+dpkp
+pem
+snpa
 
 ## environment variable
 
@@ -33,12 +35,12 @@ categories: ["linux","linux-mabox-linux"]
 
 ## Keyboard Hotkeys
 
-Openbox
-
+* Openbox
   * modify shortcut binding
     * somehow some shortcut not showing in GUI
     * modify in '.config/openbox/rc.xml'
     * run 'openbox --restart'
+
 
 
 ---
