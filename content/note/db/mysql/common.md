@@ -32,6 +32,19 @@ run `Show processlist;` and `kill {processID}`
 
 same in `innodb`
 
+## Paginate
+
+There's a problem with common pagination using limit and offset,
+
+if size of offset is too large,
+
+it will cause performance issue,
+
+since it will scan all the rows before the offset.
+
+One of solution is to use last of `id` to paginate.
+
+
 
 
 
