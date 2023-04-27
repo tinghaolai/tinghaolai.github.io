@@ -9,6 +9,11 @@ categories: ["db","db-mysql"]
 
 ---
 
+## IP allow in 8.0
+
+* `GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;`
+* `FLUSH PRIVILEGES;`
+
 ## Null value
 
 In conclusion, don't recommend to use `NULL` in `MySQL` database.

@@ -55,6 +55,27 @@ As I know, can't assign static IP to exists container, have to create new one.
 
 [Solution](https://stackoverflow.com/questions/27937185/assign-static-ip-to-docker-container)
 
+## Change password
+
+This happened to my side project, because it's testing at beginning,
+
+so I use default password.
+
+But then I think it's not safe, 
+
+so I change it in `docker-compose.yml`,
+
+but `docker-compose up -d` not work,
+
+since the relate data is in volume,
+
+so I decide to remove the volume and recreate it,
+
+But then I realize that I should just change the account setting in container.
+
+
+```bash
+
 
 
 ---
