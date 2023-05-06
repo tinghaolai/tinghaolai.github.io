@@ -21,12 +21,15 @@ https://github.com/davetestingaccount/test-for-ci
   * `docker tag local_image_name/test-for-ci:v0.1 ghcr.io/davetestingaccount/test-for-ci:v0.2`
 * Login
   * `docker login ghcr.io -u davetestingaccount`
+  * Try `sudo` if can't login
 * Push to github
   * `docker push ghcr.io/<GITHUB_USERNAME><REPO_NAME>:<TAG>`
   * `docker push ghcr.io/davetestingaccount/test-for-ci:v0.2`
 * Check upload
   * enter `ghcr.io/davetestingaccount/test-for-ci` in browser
     
+
+
 
 ---
 
