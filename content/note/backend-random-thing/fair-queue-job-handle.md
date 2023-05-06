@@ -54,5 +54,25 @@ depends on your system,
 
 but any this is the core concept.
 
+## More thoughts
+
+Other than this approach, 
+
+which have only one machine,
+
+there might be other better ways to handle this,
+
+for example: horizontal scaling.
+
+And what is the better way?
+
+I think it depends on your system,
+
+maybe it's totally not necessary to worry about in your system,
+
+but can you handle it if it happens?
+
+
+
 ---
 

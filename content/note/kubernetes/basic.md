@@ -30,6 +30,7 @@ kubeadm reset
 sudo apt-get purge kubeadm kubectl kubelet kubernetes-cni kube*   
 sudo apt-get autoremove  
 sudo rm -rf ~/.kube
+rm -rf /etc/kubernetes 
 ```
 
 ## Structure
@@ -38,7 +39,25 @@ sudo rm -rf ~/.kube
 
 ## Install guide recommend
 
-https://skyao.io/learning-kubernetes/docs/installation/kubeadm/ubuntu.html
+* kubeadm
+  https://skyao.io/learning-kubernetes/docs/installation/kubeadm/ubuntu.html
+* MicroK8s
+  * Just follow the official guide, 
+  * but somehow it became extremely slow after re-installed, I did all what I can do to entirely remove, but still.
+* For ubuntu, really helpful tutorial
+  * https://www.youtube.com/watch?v=7k9Rdlx30OY
+
+## About multiple machines cluster from frp
+
+Maybe i do something wrong, 
+
+but i can't make it work,
+
+so don't try it,
+
+just use regular way.
+
+
 
 ---
 
