@@ -112,7 +112,12 @@
         </li>
       {{ end }}
       <li class="nav__list-item">
-        <el-button @click="testButtonClick">Test button</el-button>
+        <el-autocomplete
+                v-model="autocompleteRegex"
+                :fetch-suggestions="querySearchAsync"
+                placeholder="enter regex"
+                @select="selectRegexResult"
+        ></el-autocomplete>
       </li>
     </ul>
   </nav>
@@ -123,16 +128,32 @@
     el: '#navbar-vue-app',
     data: function () {
       return {
-        visible: false,
+        autocompleteRegex: '',
+        articles: [{'filename': 'test1', 'content': 'test1 aoooooeuaoeuaoeuaoue'},{'filename': 'test2', 'content': 'test2 aoeuaoeu'},{'filename': 'test3', 'content': 'test2 aoeuaoeu'},{'filename': 'test4', 'content': 'test4 aoeuaoeu'},{'filename': 'test5', 'content': 'test2 aoeuaoeu'},{'filename': 'test6', 'content': 'test2 aoeuaoeu'},{'filename': 'test7', 'content': 'test2 aoeuaoeu'},{'filename': 'test8', 'content': 'test6666 aoeuaoeu'},],
       };
     },
     mounted() {
-      console.log('test console: vue 2 mounted');
     },
     methods: {
-      testButtonClick() {
-        console.log('test console: vue 2 button clicked');
-        toastr.success('test toastr: vue 2 button clicked');
+      querySearchAsync(regex, cb) {
+        if (regex === '') {
+          cb([]);
+          return;
+        }
+
+        let results = this.articles.filter((article) => {
+            return article.content.match(regex);
+        });
+
+        cb(results.map((article) => {
+          return {
+            value: article.filename,
+            content: article.content,
+          };
+        }));
+      },
+      selectRegexResult(item) {
+        window.open('/' + item.value, '_blank');
       },
     },
   });
