@@ -16,3 +16,8 @@
 * `git push origin master`
 
 > `go run main.go && bash sync-content.sh && git push origin master`
+ 
+## Update regex 
+
+* `cd cmd/sync-content-to-navbar-content`
+* `go run main.go`
