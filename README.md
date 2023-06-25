@@ -15,7 +15,9 @@
 * `bash sync-content.sh`
 * `git push origin master`
 
-> `go run main.go && bash sync-content.sh && git push origin master`
+> `go run main.go && bash sync-content.sh && git push origin master` 
+
+> `cd cmd/sync-from-github && go run main.go && bash sync-content.sh && git push origin master`
  
 ## Update regex 
 
