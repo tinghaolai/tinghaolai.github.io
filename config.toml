@@ -3,7 +3,7 @@ baseURL = 'https://tinghaolai.github.io/'
 
 [params]
 displayMode = "dark"
-profilePicture = "/images/excited-cat.jpg"
+profilePicture = "/images/flat-cat.jpg"
 title = "Tech notes"
 author = "Tinghao Lai"
 description = "Personal note, FYI, might outdated or not correct"
