@@ -27,6 +27,9 @@ This can cause problem.
 
 so the solution is by checking hash in `go.sum`.
 
+## UML class diagram tools
+
+* https://www.dumels.com/
 
 
 ---
