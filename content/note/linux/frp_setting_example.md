@@ -54,5 +54,12 @@ Remember open ports if using cloud server, not inside the machine but setting fr
 
 Enter `00.000.000.000:6002` in browser to enter the web server hosted by frpc machine.
 
+
+### Reload config
+
+`systemctl restart frpc`
+
+
+
 ---
 

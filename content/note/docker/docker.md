@@ -9,6 +9,30 @@ categories: ["docker"]
 
 ---
 
+## CMD vs RUN cs ENTRYPOINT
+
+### CMD
+
+```dockerfile
+CMD ["executable","param1","param2"]
+CMD command param1 param2
+```
+
+* Can only have one CMD, use last one
+* Execute when container start
+
+### ENTRYPOINT
+
+* ENTRYPOINT should be defined when using the container as an executable.
+  * instead of cmd
+* Executed when container start
+
+### RUN
+
+* Can have multiple RUN
+* Execute when building image
+  * Will create a temporary container, execute command, and commit to image
+
 ## Access container using bash
 
 After enter container terminal, type `/bin/bash` to access bash.
@@ -75,6 +99,8 @@ But then I realize that I should just change the account setting in container.
 
 
 ```bash
+
+
 
 
 
