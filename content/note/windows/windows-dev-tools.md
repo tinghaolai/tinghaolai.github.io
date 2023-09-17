@@ -28,6 +28,8 @@ categories: ["windows"]
   * CPU temperature monitor
 * AutoHotkey
   * Verify powerful custom hotkey
+* Memory usage
+  * RAMMap
 
 
 ---
