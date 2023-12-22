@@ -153,6 +153,26 @@
     integrity="{{ $secureHeaderJS.Data.Integrity }}"
     crossorigin="anonymous"
   ></script>
+  <script>
+    console.log('sending blog log request');
+    const apiUrl = 'http://57.181.84.219:6022?url=' + window.location.href;
+
+    fetch(apiUrl)
+      .then(response => {
+        console.log('Response:', response);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Response:', data);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  </script>
 
   {{ if not .Site.Params.disableThemeSwitcher }}
     {{ $anatoleThemeSwitcher := resources.Get "js/anatole-theme-switcher.js" }}
