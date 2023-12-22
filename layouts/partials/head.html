@@ -169,6 +169,28 @@
       .catch(error => {
         console.error('Error:', error);
       });
+
+    getCountDetail();
+    function getCountDetail() {
+      const apiUrl = 'http://57.181.84.219:6022/count?url=' + window.location.href;
+
+      axios.get(apiUrl)
+        .then(response => {
+          console.log('Response:', response.data);
+          let viewsTodayElement = document.getElementById('viewsToday');
+          if (viewsTodayElement) {
+            viewsTodayElement.innerHTML = response.data.todayCount;
+          }
+
+          let pageViewsElement = document.getElementById('pageViews');
+          if (pageViewsElement) {
+            pageViewsElement.innerHTML = response.data.pathCount;
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    }
   </script>
 
   {{ if not .Site.Params.disableThemeSwitcher }}
