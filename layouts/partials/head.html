@@ -161,6 +161,11 @@
     axios.get(apiUrl)
       .then(response => {
         console.log('Response:', response.data);
+        let totalViewsElement = document.getElementById('totalViews');
+        if (totalViewsElement) {
+          totalViewsElement.innerHTML = response.data.total;
+        }
+
       })
       .catch(error => {
         console.error('Error:', error);
