@@ -158,19 +158,24 @@
     console.log('sending blog log request');
     const apiUrl = 'https://57.181.84.219:6022?url=' + window.location.href;
 
-    axios.get(apiUrl)
-      .then(response => {
-        console.log('Response:', response.data);
-        let totalViewsElement = document.getElementById('totalViews');
-        if (totalViewsElement) {
-          totalViewsElement.innerHTML = response.data.total;
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
 
+    sendLog();
     getCountDetail();
+
+    function sendLog() {
+      axios.get(apiUrl)
+              .then(response => {
+                console.log('Response:', response.data);
+                let totalViewsElement = document.getElementById('totalViews');
+                if (totalViewsElement) {
+                  totalViewsElement.innerHTML = response.data.total;
+                }
+              })
+              .catch(error => {
+                console.error('Error:', error);
+              });
+    }
+
     function getCountDetail() {
       const apiUrl = 'https://57.181.84.219:6022/count?url=' + window.location.href;
 
