@@ -158,8 +158,10 @@
     console.log('sending blog log request');
     const apiUrl = 'https://57.181.84.219:6022?url=' + window.location.href;
 
+    if (localStorage.getItem('blogLogSkip') !== 'yes') {
+      sendLog();
+    }
 
-    sendLog();
     getCountDetail();
 
     function sendLog() {
