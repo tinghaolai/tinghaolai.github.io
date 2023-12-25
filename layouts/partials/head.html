@@ -164,6 +164,16 @@
 
     getCountDetail();
 
+    function skipLog() {
+      localStorage.setItem('blogLogSkip', 'yes');
+      console.log('skip log success');
+    }
+
+    function startLog() {
+      localStorage.removeItem('blogLogSkip');
+      console.log('reset log success');
+    }
+
     function sendLog() {
       axios.get(apiUrl)
               .then(response => {

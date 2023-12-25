@@ -23,3 +23,9 @@
 
 * `cd cmd/sync-content-to-navbar-content`
 * `go run main.go`
+
+
+## Skip Log Feature
+
+* type `skipLog()` in blog website console to skip log
+* type `startLog()`  in blog website console to start log
