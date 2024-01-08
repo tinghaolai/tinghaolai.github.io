@@ -2,7 +2,7 @@
 title: "frp_setting_example.md"
 date: 1919-08-10T11:45:14Z
 draft: false
-categories: ["linux"]
+categories: ["linux","linux-frp"]
 ---
 
 
